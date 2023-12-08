@@ -1,0 +1,897 @@
+{
+
+"Instructions Readme": "1) Open Chrome or Edge, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"processInfo": {
+    "os": "Unix 14.1.2",
+    "cpuCount": "8",
+    "mappedPhysicalMemory": "47mb",
+    "commandLine": "\"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/build/deploy_arm64/il2cpp.dll\" --compile-cpp --platform=iOS \"--baselib-directory=/Users/aesk/VR Visualize/New Unity Project/Build/Libraries\" --additional-defines=IL2CPP_DEBUG=0 --incremental-g-c-time-slice=3 --dotnetprofile=unityaot-macos --profiler-report --print-command-line \"--external-lib-il2-cpp=/Users/aesk/VR Visualize/New Unity Project/Build/Libraries/libil2cpp.a\" --generatedcppdir=Il2CppOutputProject/Source/il2cppOutput --architecture=arm64 --outputpath=/Users/aesk/Library/Developer/Xcode/DerivedData/Unity-iPhone-aqxxiojixevcjdguahiddaxwtifp/Build/Products/ReleaseForRunning-iphoneos/libGameAssembly.a --cachedirectory=/Users/aesk/Library/Developer/Xcode/DerivedData/Unity-iPhone-aqxxiojixevcjdguahiddaxwtifp/Build/Intermediates.noindex/Unity-iPhone.build/ReleaseForRunning-iphoneos/artifacts/arm64 --configuration=Release"
+},
+
+"traceEvents":[
+{ "pid": 9487, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "il2cpp_outer" } },
+{ "pid": 9487, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 9487, "tid": 12884901888, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen2" } },
+{ "pid": 9487, "tid": 1, "ts": 1702016750433411, "dur": 1827, "ph": "X", "name": "GC - Gen2", "args": {} },
+{ "pid": 9487, "tid": 8589934592, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen1" } },
+{ "pid": 9487, "tid": 4294967296, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen0" } },
+{ "pid": 9487, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
+{ "pid": 9487, "tid": 1, "ts": 1702016750048705, "dur": 360076, "ph": "X", "name": "il2cpp.exe", "args": {"analytics": "1"} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750050706, "dur": 61189, "ph": "X", "name": "ParseArguments", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750111897, "dur": 9703, "ph": "X", "name": "RegisterRuntimeEventListeners", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750137123, "dur": 260364, "ph": "X", "name": "BeeDriverRunner.ExecuteIl2Cpp", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750401714, "dur": 4914, "ph": "X", "name": "Write Analytics", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750408783, "dur": 12804, "ph": "X", "name": "UnregisterRuntimeEventListeners", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750424463, "dur": 2023, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 9487, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 9487, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 9487, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
+{ "pid": 9487, "tid": 1, "ts": 1702016750263692, "dur": 154654, "ph": "X", "name": "Build FinalProgram", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750265852, "dur": 9995, "ph": "X", "name": "Writing build program input data", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750275870, "dur": 142386, "ph": "X", "name": "Running build system backend", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750418289, "dur": 57, "ph": "X", "name": "Finishing", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750426782, "dur": 1882, "ph": "X", "name": "Main thread", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702016750357384, "dur":2071, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750359496, "dur":2068, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750361591, "dur":137, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750361737, "dur":440, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750362179, "dur":39790, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750402062, "dur":5222, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702016750361663, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750362206, "dur":14751, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750377106, "dur":5153, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750382291, "dur":51, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"z7ln/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1702016750382631, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750383494, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringViewUtils.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750383620, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/MemoryUtils.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750383735, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Thread.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750382533, "dur":1272, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750377079, "dur":6727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kjzkg7am02vu.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750383861, "dur":501, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750384407, "dur":316, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750383841, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1e5vedfbh8fe.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750384764, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750384969, "dur":379, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750384745, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yiyvkgnbww2j.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750385387, "dur":257, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750386081, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/String.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750386153, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Cpp/Time.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750386390, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/MemoryUtils.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750385655, "dur":1018, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750385370, "dur":1304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/vynps8p4dqy3.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750386718, "dur":328, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750387088, "dur":329, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750386698, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/oye29d54t6gj.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750387464, "dur":469, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750388118, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-tokentype.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750387963, "dur":569, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750387444, "dur":1088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/u8rgmudk5xdy.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750388582, "dur":809, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750389448, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/densehashtable.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750389865, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-blob.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750389407, "dur":836, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750388562, "dur":1681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ffgifkb6cyn9.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750390294, "dur":849, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750391495, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750391929, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/KeyWrapper.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750391152, "dur":1194, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750390269, "dur":2077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/33g4y5vozxgh.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750392393, "dur":807, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750393212, "dur":462, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750392373, "dur":1301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0vxxbnf7lhyj.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750393675, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750393777, "dur":397, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750394192, "dur":475, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750393758, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rr4nyjb8uk73.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750394712, "dur":310, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395371, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/PlatformInvoke.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395605, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/NonCopyable.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395031, "dur":740, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750394695, "dur":1077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7lzwiwfr5ktz.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395772, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395862, "dur":308, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__39.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750396177, "dur":315, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750395829, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e0yqzhwibvcc.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750396517, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__35.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750396577, "dur":275, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__35.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750397193, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_ReentrantLock.inl.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750396865, "dur":564, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750396516, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6onhz36qxere.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750397479, "dur":354, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__28.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398181, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398407, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/PlatformEnvironment.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398508, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/sparse_hash_map.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398662, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ClassInlines.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750397887, "dur":893, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750397461, "dur":1319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6per6eq34nw1.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398794, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__18.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398862, "dur":196, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__18.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750399152, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/ArrayMetadata.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750399789, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Lock.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750399879, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Posix/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750399954, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/template_util.h" }}
+,{ "pid":12345, "tid":1, "ts":1702016750399067, "dur":989, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750398793, "dur":1264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zne8xr0m2ix6.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750400120, "dur":196, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750400322, "dur":475, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750400088, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0r82npl2et3m.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750400852, "dur":358, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702016750401222, "dur":436, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702016750400831, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/70t571hdyo65.o" }}
+,{ "pid":12345, "tid":1, "ts":1702016750401681, "dur":272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750361670, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750362210, "dur":80, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750362290, "dur":14685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750376977, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750377038, "dur":980, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378247, "dur":370, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750376976, "dur":1641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/t8x3lswy4zqf.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378617, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378683, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378756, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378877, "dur":127, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750378681, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/swztaa7x64ka.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379004, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379058, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379118, "dur":144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379467, "dur":343, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379056, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/uuzevmi3b6ot.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379885, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GridModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380070, "dur":300, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750379860, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/19lixpihz6gm.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380418, "dur":96, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380567, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380394, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/v4cj1xhg4bnx.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380797, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380956, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringView.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380883, "dur":157, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750380796, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dm3ucrjkauk3.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750381059, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750381143, "dur":480, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750381773, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-windowsruntime-types.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750381772, "dur":249, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750381058, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k6kpryei9ml0.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382071, "dur":218, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Google.XR.Cardboard_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382054, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dgiejk2w6jg7.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382364, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jdbk3wafttzv.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382508, "dur":334, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382858, "dur":332, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750382463, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4sbqh2y7wmrm.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383233, "dur":182, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383494, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/WaitStatus-c-api.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383618, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentMsvc.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383751, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383988, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Memory.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383425, "dur":801, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750383213, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bw3g9lohpyoq.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750384267, "dur":323, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750384676, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SourceLocation.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750384832, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Assert.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750385281, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstCompare.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750385417, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Cpp/ReentrantLock.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750385503, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/libc_allocator_with_realloc.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750384607, "dur":1186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750384249, "dur":1544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ube3ye6h7tbw.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750385837, "dur":428, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750386366, "dur":369, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750385818, "dur":917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wzwd5xxagg19.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750386787, "dur":215, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387099, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387242, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentClang.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387623, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ScopedThreadAttacher.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387014, "dur":920, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750386754, "dur":1180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ovc2tc8ged0w.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387979, "dur":234, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750388231, "dur":359, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750387959, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1r2bzz6cmjev.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750388723, "dur":521, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Management.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750389450, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-config.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750389401, "dur":1042, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750388685, "dur":1758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/gwi87fyk77kg.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750390501, "dur":933, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750391453, "dur":425, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750390465, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/iodgjwhrw94x.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750391919, "dur":245, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750392187, "dur":734, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750391896, "dur":1025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/tmcvrajw2lv0.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750392978, "dur":322, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750393307, "dur":517, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750392944, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l3a65o27qwex.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750393876, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750394257, "dur":611, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750393858, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i9md0xs35t9v.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750394924, "dur":353, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__7.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750395585, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Cpp/Time.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750395285, "dur":513, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750394889, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lybsi7kvyu00.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750395815, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__4.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750395880, "dur":372, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__4.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750396259, "dur":357, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750395814, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/evkz28b2ogwi.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750396668, "dur":304, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__33.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397470, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/pch/pch-cpp.hpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750396992, "dur":559, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750396648, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k1zczecvqoyf.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397552, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397604, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__26.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397676, "dur":305, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__26.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397987, "dur":387, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750397602, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k2qm6pv7xx32.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750398430, "dur":301, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__20.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750398801, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Assembly.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750398748, "dur":631, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750398395, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6v80atdle5u2.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750399435, "dur":444, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__13.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750400111, "dur":148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":2, "ts":1702016750400279, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/dummy" }}
+,{ "pid":12345, "tid":2, "ts":1702016750400420, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SourceLocation.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750400846, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ScopedThreadAttacher.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750401069, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Posix/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":2, "ts":1702016750400351, "dur":872, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750399401, "dur":1822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6wzai4wxle0p.o" }}
+,{ "pid":12345, "tid":2, "ts":1702016750401283, "dur":295, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702016750401591, "dur":299, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702016750401264, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/j98815o9drud.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750361677, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750362223, "dur":14798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750377030, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750377080, "dur":950, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378112, "dur":52, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378197, "dur":197, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750377028, "dur":1366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7stfo3hsfvxy.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378395, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378506, "dur":237, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378985, "dur":405, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750378469, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qt0jpq7pvg2g.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750379438, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750379527, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750379959, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750379436, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9mizr2fwsev9.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750380106, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750380162, "dur":308, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750380689, "dur":401, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750380104, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9tsk33vtegnk.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750381090, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750381155, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750381208, "dur":343, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750381771, "dur":294, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750381154, "dur":911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/eq06rogycfqa.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382065, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382141, "dur":146, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382123, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/glni7rxz1rp7.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382373, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382430, "dur":521, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383137, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382968, "dur":497, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750382372, "dur":1093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/h2brkkn9vl0f.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383505, "dur":177, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383736, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Alignment.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383987, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentMsvc.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750384151, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Cpp/ReentrantLock.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750384260, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750384396, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383693, "dur":940, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750383486, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/p8fc9wtli8vr.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750384682, "dur":410, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385120, "dur":60, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385279, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385593, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/gc/Allocator.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385750, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/PlatformInvoke.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385830, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppHashMap.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750385190, "dur":822, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750384661, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xplvdp6u55fq.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750386056, "dur":410, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750386779, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750386935, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppHashMap.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387096, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/ThreadLocalValue.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750386475, "dur":722, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750386030, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bycc4126y9qh.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387248, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387453, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/icalls/mscorlib/System.Threading/Interlocked.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387744, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/libc_allocator_with_realloc.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387418, "dur":588, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750387227, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/994alwpol8j6.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388056, "dur":228, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388693, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/il2cpp-config-api-platforms.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388834, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388909, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-metadata.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750389081, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/PlatformEnvironment.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388298, "dur":942, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750388037, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/uorldd4l6ukt.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750389324, "dur":238, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750389579, "dur":1264, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750389290, "dur":1554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/8hcon2ets1zp.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750390884, "dur":809, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750391709, "dur":455, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750390865, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hgtzyg1ss7ni.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750392203, "dur":662, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750393674, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringUtils.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750392878, "dur":1080, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750392184, "dur":1774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/nr5iwrq1w97x.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750394006, "dur":240, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750394264, "dur":554, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750393977, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mj1mzu8qyc44.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750394854, "dur":354, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750395373, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/BasicTypes.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750395218, "dur":523, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750394831, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6dfgygzs1ick.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750395795, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__40.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750396170, "dur":324, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750395763, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0spvw9ujktyo.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750396548, "dur":264, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__34.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750396980, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-common.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750397195, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750396832, "dur":718, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750396529, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l9jtjustuqfv.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750397617, "dur":300, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__27.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750398182, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Debugger.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750398403, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Debug.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750398028, "dur":597, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750397577, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lab3q5b61zki.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750398668, "dur":348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__19.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750399028, "dur":421, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750398648, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k3hwd1ek568p.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750399503, "dur":228, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__12.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750399970, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-api-types.h" }}
+,{ "pid":12345, "tid":3, "ts":1702016750399741, "dur":505, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750399473, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5ofuxogzhcja.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750400292, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750400485, "dur":575, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750400269, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/fc5e8f74b5r3.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750401087, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750401161, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702016750401484, "dur":334, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702016750401086, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ld607cnhryd7.o" }}
+,{ "pid":12345, "tid":3, "ts":1702016750401829, "dur":145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750361686, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750362228, "dur":14734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750377012, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750377066, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750377121, "dur":894, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378232, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750377064, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ha1yy2fq60j5.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378476, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378536, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378600, "dur":220, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378853, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750378534, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wgfiz0vksrxw.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750379161, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750379567, "dur":323, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750379133, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/u9ob6ouyspsu.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750379935, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750380014, "dur":226, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750380316, "dur":382, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750379934, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qc831y2mvmyw.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750380698, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750380788, "dur":246, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750381061, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750381040, "dur":445, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750380772, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rn4ji4gjha6t.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750381549, "dur":253, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":4, "ts":1702016750381918, "dur":376, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750381521, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7jg3ut6ekcsc.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750382294, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750382419, "dur":468, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750383131, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MetadataCache.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750383333, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericMethodHash.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750382902, "dur":675, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750382381, "dur":1196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qgzuhrt33ckl.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750383626, "dur":356, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384003, "dur":355, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750383607, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4scotnfofkk8.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384405, "dur":190, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384671, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Assembly.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384816, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/WaitStatus-c-api.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384607, "dur":636, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750384385, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/t3tmezpj3rug.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750385291, "dur":452, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750385762, "dur":494, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750385268, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mksd8440dg46.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750386321, "dur":225, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750386937, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Thread.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750386556, "dur":493, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750386297, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4gyegbm3hxzg.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387108, "dur":187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387452, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387306, "dur":484, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387087, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/iijxe64vont7.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387848, "dur":431, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750388911, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/dense_hash_map.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750388296, "dur":739, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750387818, "dur":1217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/m75ze9kap7pe.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750389093, "dur":243, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750389344, "dur":311, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750389072, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kwmf3wey2t3p.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750389695, "dur":579, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750391113, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-metadata.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750390397, "dur":989, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750389676, "dur":1710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/a77we44h9blz.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750391427, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750391671, "dur":606, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750391409, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/fa0zrzds9boz.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750392344, "dur":474, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750393144, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750393427, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentGcc.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750392832, "dur":793, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750392298, "dur":1327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mjl2bca3s7qi.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750393683, "dur":202, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750393977, "dur":471, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750393665, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w1txwvdizuio.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750394486, "dur":348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Google.XR.Cardboard.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750395143, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ScopedThreadAttacher.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750395253, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MarshalAlloc.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750394860, "dur":688, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750394464, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hy3lh1p0ggu7.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750395616, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__41.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750396229, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/dynamic_array.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750396659, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Baselib.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750396741, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/gc/Allocator.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750395996, "dur":941, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750395575, "dur":1363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l8sjcj9gnha8.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750396987, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__31.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750397604, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericMethodHash.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750397671, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/sparse_hash_map.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750397252, "dur":637, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750396967, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e6s03vj0kcbd.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750397941, "dur":151, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__23.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398333, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Il2CppHStringReference.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398423, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Atomic.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398511, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-string-types.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398656, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic_Macros.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398801, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/type_traits.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398104, "dur":809, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750397909, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dzztqrmeojzk.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398960, "dur":552, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__17.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750399522, "dur":404, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750398942, "dur":984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yfurdckoyggr.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750399979, "dur":209, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750400195, "dur":450, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750399946, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7rt6ma38e2r0.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750400678, "dur":274, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702016750401170, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_SemaphoreBased.inl.h" }}
+,{ "pid":12345, "tid":4, "ts":1702016750400967, "dur":727, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702016750400651, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/toha8qc94ez4.o" }}
+,{ "pid":12345, "tid":4, "ts":1702016750401722, "dur":231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750361700, "dur":531, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750362231, "dur":14743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750376977, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750377045, "dur":961, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378139, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378106, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750376975, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9y51tddpspvt.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378322, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378417, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378914, "dur":57, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378977, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750378389, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2xmg4eshi0wo.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379202, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379289, "dur":74, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379535, "dur":360, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379259, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/gh94m1w2x0r3.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379897, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379989, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750380214, "dur":408, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750379958, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/iosywapw9hm9.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750380622, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750380736, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750380877, "dur":199, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750380697, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/g9j3gsuqqssx.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381077, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381174, "dur":161, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381403, "dur":163, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381135, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ggy2cc2uoevi.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381655, "dur":171, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381879, "dur":413, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750381607, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4ky8n4kcl8gq.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750382293, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750382415, "dur":330, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750382762, "dur":338, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750382388, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/50v61hf60o81.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750383143, "dur":387, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750383537, "dur":418, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750383122, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wb74ov2esm09.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750383997, "dur":721, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750384748, "dur":340, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750383978, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/gz17y30dek4u.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750385131, "dur":193, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750385504, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/dynamic_array.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750385747, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/FastReaderReaderWriterLock.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750385332, "dur":699, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750385112, "dur":920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l04jd6wjo0gz.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386089, "dur":248, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386764, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ClassInlines.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386398, "dur":499, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386068, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zkr6ngfhk6ba.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386945, "dur":205, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750387239, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750387160, "dur":545, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750386925, "dur":780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xsbwecifx8ln.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750387756, "dur":1144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750388923, "dur":289, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750387734, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1t4cdq31ck1j.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750389257, "dur":235, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750389499, "dur":525, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750389235, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/vrj87w16aa71.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750390069, "dur":1239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750391322, "dur":447, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750390050, "dur":1719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4b1kjlcn3zxw.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750391813, "dur":487, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750392377, "dur":601, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750391794, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/uuwbcqzu6ncg.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750392996, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750393048, "dur":239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750393768, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ClassInlines.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750393300, "dur":587, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750392995, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/94i5dr3hpqas.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750393942, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750394703, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-blob.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750394997, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-object-internals.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750394324, "dur":779, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750393918, "dur":1186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4eqz32zhze5f.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750395150, "dur":284, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750395444, "dur":441, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750395131, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zaoniiqzr471.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750395936, "dur":454, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__38.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750396741, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/ArchitectureDetection.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750396406, "dur":724, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750395912, "dur":1218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dseaf2fk7svw.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750397188, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__29.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750397918, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/CoreMacros.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750397421, "dur":713, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750397153, "dur":981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/r5hfmo407b8k.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750398191, "dur":247, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__22.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750398657, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Handle.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750398803, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750398444, "dur":578, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750398171, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sjw5ai8glvn1.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399023, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399119, "dur":218, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__16.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399484, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/Marshal.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399786, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Exception.h" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399349, "dur":678, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750399079, "dur":949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/d0q3x25qvs47.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750400075, "dur":496, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702016750400587, "dur":721, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702016750400053, "dur":1255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/8jos5m80kfx1.o" }}
+,{ "pid":12345, "tid":5, "ts":1702016750401363, "dur":589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750361708, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750362233, "dur":14746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750376999, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750377050, "dur":962, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750378196, "dur":311, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750376994, "dur":1513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xf46i6sqzetj.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750378543, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750378616, "dur":512, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750379302, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750379217, "dur":456, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750378542, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7rwj58376yu9.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750379722, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750379776, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380031, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750379721, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ib7ax356ubrm.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380315, "dur":148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Management_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380491, "dur":160, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380296, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sajwa04abql0.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380727, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380876, "dur":178, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750380685, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/gejo8a1l3lml.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381054, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381183, "dur":151, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381405, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381138, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sbq2pxh2vgck.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381677, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381741, "dur":319, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":6, "ts":1702016750382502, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-tokentype.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750382264, "dur":320, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750381676, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rgm4bwl3c46b.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750382637, "dur":213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383222, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/NonCopyable.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750382863, "dur":423, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750382615, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xjrl9ajdwohp.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383339, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383615, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/WaitStatus-c-api.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383736, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_SemaphoreBased.inl.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383541, "dur":576, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750383318, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/aoj0o67ilw7a.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750384167, "dur":403, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750384670, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/IOS/Include/C/Baselib_ErrorState.inl.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750384815, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/PlatformDetection.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750385120, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/CustomAttributeDataReader.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750384585, "dur":878, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750384142, "dur":1322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/frhreokfainf.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750385514, "dur":277, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750385819, "dur":517, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750385494, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9a0ksjv86z54.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750386397, "dur":525, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750387102, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppTypeCompare.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750387455, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-sanitizers.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750386946, "dur":627, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750386365, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6uqtetm234lw.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750387635, "dur":691, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750388692, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750388915, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringUtils.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750389301, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750388343, "dur":1068, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750387600, "dur":1812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pr4sxqf1vrna.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750389459, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System.Configuration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750389883, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750390100, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-il2cpp.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750389639, "dur":1513, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750389439, "dur":1713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jczyyzblg2r2.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750391215, "dur":239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750391930, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-pinvoke-support.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750391505, "dur":747, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750391193, "dur":1059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/blmn3x8xmv0f.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750392252, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750392330, "dur":520, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750392868, "dur":471, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750392310, "dur":1029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/13hew2v5pjfz.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750393383, "dur":214, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750393609, "dur":474, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750393363, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/28i51mj9sm3s.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750394128, "dur":212, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750394704, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750394367, "dur":587, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750394111, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zf2cgp17q47r.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395006, "dur":192, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395252, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericContextHash.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395371, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Assembly.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395585, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppTypeCompare.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395921, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic_Macros.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750395206, "dur":967, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750394987, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0i832x6xv6oh.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396238, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__36.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396659, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-string-types.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396744, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic_Macros.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396978, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396375, "dur":754, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750396203, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7w7xjjnp1g8t.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397147, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397201, "dur":203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397472, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SourceLocation.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397606, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-tokentype.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397925, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Debug.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397415, "dur":872, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750397146, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/tfhbnzx4lskz.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750398343, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__21.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750398802, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_EnumSizeCheck.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750398559, "dur":565, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750398324, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rbcpq2riht6l.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750399163, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__15.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750399387, "dur":453, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750399143, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sknfitrts4so.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750399886, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__10.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750400278, "dur":65, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":6, "ts":1702016750400659, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/HashUtils.h" }}
+,{ "pid":12345, "tid":6, "ts":1702016750400394, "dur":562, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750399867, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zt8h25n4b0v7.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750400987, "dur":315, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702016750401314, "dur":474, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702016750400963, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mlqhss3fv0um.o" }}
+,{ "pid":12345, "tid":6, "ts":1702016750401792, "dur":181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750361721, "dur":514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750362235, "dur":14797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750377148, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750377204, "dur":805, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378079, "dur":489, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750377035, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bf0jfk1al9dp.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378569, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378632, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378708, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378855, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":7, "ts":1702016750379073, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750378631, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/uf8vw3qzu723.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750379329, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750379465, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750379784, "dur":250, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750379327, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kxkxzp8s6df3.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380035, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380119, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380205, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380826, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-object-internals.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380603, "dur":308, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380118, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7ljixhwjgy2i.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380912, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750381017, "dur":365, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750381523, "dur":331, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750380982, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kgl8qxmzdxzv.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750381854, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750381947, "dur":109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":7, "ts":1702016750382125, "dur":126, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750381914, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7jr4tc2uqadu.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750382303, "dur":532, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383131, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MarshalAlloc.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383227, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/GenericClass.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383327, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/CustomAttributeDataReader.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383497, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringViewUtils.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383616, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/template_util.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750382849, "dur":844, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750382283, "dur":1411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l704ct5fua8b.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383757, "dur":695, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750384670, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Gcc_Patch.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750384831, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750385125, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750384471, "dur":900, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750383726, "dur":1645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3ks787ypbi3s.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750385428, "dur":187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750385747, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemFutex.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750385626, "dur":493, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750385401, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ajk1czb7a2mk.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750386160, "dur":728, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750386940, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-config.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750387237, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Debugger.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750386904, "dur":677, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750386142, "dur":1439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/67wtx0e9rx6d.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750387646, "dur":610, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750388274, "dur":502, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750387614, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i1wfeezv1ou7.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750388819, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750389084, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750389266, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750389317, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ErrorCode.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750389453, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-tiny.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750389039, "dur":1973, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750388799, "dur":2213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lw47ap3610ju.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750391033, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750391094, "dur":255, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750391495, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Assert.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750391360, "dur":655, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750391032, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w0pbj7mvpjcz.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750392055, "dur":526, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750393145, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/GenericClass.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750392594, "dur":798, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750392039, "dur":1354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/8686b14yzxjh.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750393438, "dur":184, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750393771, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/ArchitectureDetection.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750394120, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstHash.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750393632, "dur":765, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750393414, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/h4l1clkugxhx.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750394438, "dur":282, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750394728, "dur":490, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750394416, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/j1jswc9rm418.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750395262, "dur":187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__43.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750395585, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750396066, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750396231, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Thread.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750396558, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/KeyWrapper.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750395461, "dur":1233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750395244, "dur":1451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7vgoc83cu726.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750396750, "dur":342, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__32.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750397470, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Object.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750397261, "dur":547, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750396730, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zlwoj5xxn0mw.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750397871, "dur":1005, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__25.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750398953, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-il2cpp.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750399033, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-class-internals.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750399152, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppTypeHash.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750399267, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_Lock_SemaphoreBased.inl.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750398882, "dur":869, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750397830, "dur":1921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zmnyqghav9rj.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750399813, "dur":454, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__11.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750400420, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericMethodCompare.h" }}
+,{ "pid":12345, "tid":7, "ts":1702016750400298, "dur":441, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750399779, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k9b6hf21eo7q.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750400785, "dur":549, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702016750401340, "dur":410, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702016750400763, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sgxtnbwa1cip.o" }}
+,{ "pid":12345, "tid":7, "ts":1702016750401770, "dur":214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750361730, "dur":511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750362241, "dur":14801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750377047, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750377105, "dur":899, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750378106, "dur":392, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750377046, "dur":1452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mappwip1gjqc.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750378550, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750378609, "dur":465, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750379186, "dur":53, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":8, "ts":1702016750379304, "dur":477, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750378549, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zt9dbqorxejw.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750379842, "dur":456, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750380833, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-pinvoke-support.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750380454, "dur":438, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750379808, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mnjjiikr5sp9.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750380912, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750380972, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750381168, "dur":453, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750380971, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pqtq4dbtwqcp.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750381637, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750381701, "dur":423, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":8, "ts":1702016750382228, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750381636, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/n7wsxoy6t1dw.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750382440, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750382522, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383134, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MetadataCache.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383224, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstHash.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383331, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-string-types.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383499, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic_Macros.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750382903, "dur":905, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750382491, "dur":1318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/vh8366ssql1a.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383830, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383886, "dur":541, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750384435, "dur":341, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750383829, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i5ojtyks8tr9.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750384840, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385123, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericContextCompare.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385283, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-api-types.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385504, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Handle.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750384999, "dur":699, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750384808, "dur":891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jtinh284ysy7.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385756, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750386384, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/PlatformInvoke.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385977, "dur":610, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750385736, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mxjueg1g3med.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750386652, "dur":551, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750387236, "dur":56, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool" }}
+,{ "pid":12345, "tid":8, "ts":1702016750387458, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-common.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750387826, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Baselib.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750387299, "dur":777, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750386626, "dur":1450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qhnufom8c661.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750388126, "dur":200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750388337, "dur":542, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750388108, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/t0zvdauwpaoz.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750388922, "dur":189, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/System__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389265, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389316, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Gcc_Patch.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389448, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-api-types.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389118, "dur":669, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750388901, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0g1jvfp9yc8a.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389846, "dur":1008, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750391498, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Baselib.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750391931, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/CoreMacros.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750390913, "dur":1463, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750389822, "dur":2554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pr48yuqk6n9f.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750392453, "dur":468, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393142, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/densehashtable.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393418, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Exception.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393677, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393767, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Finally.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393998, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/GenericClass.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750394120, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Handle.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750393016, "dur":1319, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750392405, "dur":1931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ad26iiszitj0.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750394382, "dur":313, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750394997, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Exception.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750395142, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_EnumSizeCheck.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750394716, "dur":615, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750394365, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cnqiqft298ke.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750395380, "dur":177, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__42.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750395570, "dur":528, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750395363, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6nw7rsneq5lr.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750396147, "dur":446, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__37.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750396976, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/sparsetable.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750396601, "dur":462, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750396128, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/scbmzs1m44jd.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750397121, "dur":259, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__30.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750397397, "dur":413, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750397102, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dy8jjg31gaux.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750397879, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__24.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750398071, "dur":407, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750397855, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e7jab72cslg0.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750398520, "dur":192, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750398801, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppTypeHash.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750398721, "dur":501, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750398498, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/s7wu2jh6hq3j.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750399276, "dur":325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__14.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750399876, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750399955, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750400282, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/template_util.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750399618, "dur":756, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750399256, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rc3yxdbvo2b9.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750400443, "dur":177, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750400632, "dur":481, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750400410, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e4kyn0q672ao.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750401191, "dur":279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702016750401666, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/aesk/VR Visualize/New Unity Project/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstHash.h" }}
+,{ "pid":12345, "tid":8, "ts":1702016750401481, "dur":383, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702016750401144, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0x2cs38joa2n.o" }}
+,{ "pid":12345, "tid":8, "ts":1702016750401884, "dur":95, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702016750407872, "dur":780, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 9487, "tid": 1, "ts": 1702016750428939, "dur": 941, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend_profiler0.traceevents"} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750429893, "dur": 405, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750426171, "dur": 5164, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 9487, "tid": 1, "ts": 1702016750432942, "dur": 4182, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{}
+
+]
+}
